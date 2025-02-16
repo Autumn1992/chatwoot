@@ -18,7 +18,8 @@
     "story:dev": "histoire dev",
     "story:build": "histoire build",
     "story:preview": "histoire preview",
-    "sync:i18n": "bin/sync_i18n_file_change"
+    "sync:i18n": "bin/sync_i18n_file_change",
+    "build": "vite build"
   },
   "size-limit": [
     {
@@ -140,8 +141,8 @@
     "vitest": "3.0.5"
   },
   "engines": {
-    "node": "23.x",
-    "pnpm": "10.x"
+    "node": "22.x",
+    "pnpm": "8.x"
   },
   "husky": {
     "hooks": {
